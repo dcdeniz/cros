@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cros photovoltaics</title>
+  <meta name="description" content="A photovoltaic cache will be vastly improved by a longer-lifetime phase change photonic memory system.">
+  <style>
+    :root {
+      --bg: #000;
+      --fg: #ededed;
+      --muted: #8a8a8a;
+      --line: #2a2a2a;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      width: 100%;
+      max-width: 720px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 40px;
+    }
+    .logo {
+      width: 100%;
+      height: auto;
+      mix-blend-mode: lighten; /* lets the logo's near-black backdrop melt into the page */
+    }
+    .thesis {
+      color: var(--muted);
+      font-size: clamp(15px, 2.2vw, 18px);
+      line-height: 1.6;
+      max-width: 52ch;
+    }
+    .thesis strong { color: var(--fg); font-weight: 600; }
+    .github {
+      color: var(--muted);
+      display: inline-flex;
+      transition: color .2s;
+    }
+    .github:hover, .github:focus-visible { color: var(--fg); }
+    .github svg { width: 28px; height: 28px; }
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 14px;
+    }
+    .btn {
+      color: var(--fg);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 9px 20px;
+      transition: border-color .2s, background .2s;
+    }
+    .btn:hover, .btn:focus-visible { border-color: var(--fg); background: #111; }
+    :focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="logo.webp" alt="cros photovoltaics" width="2000" height="242">
+
+    <p class="thesis"><strong>thesis:</strong> a photovoltaic cache will be vastly improved by a longer-lifetime phase change photonic memory system.</p>
+
+    <div class="links">
+    <a class="btn" href="mailto:denizdogan1101@gmail.com">email</a>
+    <a class="github" href="https://github.com/dcdeniz/cros" aria-label="View the repository on GitHub">
+      <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+    </div>
+  </main>
+</body>
+</html>
